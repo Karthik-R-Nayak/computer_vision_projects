@@ -5,7 +5,7 @@ This project uses **Python**, **OpenCV**, and **NumPy** to detect specific color
 The program captures video frames from the camera, converts them to **HSV color space**, and applies **color masks** to isolate the selected colors.
 Contours are drawn around detected **white objects**, and separate windows display the detected color regions.
 
-## 🎯 Features
+## Features
 
 * Real-time webcam video processing
 * Detection of:
@@ -29,12 +29,12 @@ Optional library included:
 
 * `face_recognition` (currently not used in the code)
 
-## 📦 Requirements
+## Requirements
 
 Install the required libraries before running the project.
 pip install opencv-python numpy face-recognition
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 git clone https://github.com/yourusername/color-detection-opencv.git
@@ -45,7 +45,7 @@ cd color-detection-opencv
 3. Run the script
 python color_detection.py
 
-## 🖥️ Output Windows
+##  Output Windows
 
 The program displays four windows:
 
@@ -57,24 +57,12 @@ The program displays four windows:
 | `r`         | Only detected red objects          |
 
 
-## ⌨️ Controls
+## Controls
 
 Press **`D`** on the keyboard to stop the program.
 
----
 
-## 📂 Project Structure
-
-```
-color-detection-opencv
-│
-├── color_detection.py
-├── README.md
-```
-
----
-
-## ⚙️ How It Works
+##  How It Works
 
 1. Capture frames from the webcam.
 2. Convert the frame from **BGR to HSV color space**.
@@ -83,11 +71,11 @@ color-detection-opencv
 5. Detect contours for white objects.
 6. Display the processed frames.
    
-## 🚀 Future Improvements
+##  Future Improvements
 * Detect more colors
 * Use bounding boxes instead of contours
 
-## 👨‍💻 Author
+##  Author
 https://github.com/Karthik-R-Nayak
 Developed as a **Computer Vision practice project using OpenCV**.
 
