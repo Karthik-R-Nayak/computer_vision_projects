@@ -75,6 +75,11 @@ Press **`D`** on the keyboard to stop the program.
 * Detect more colors
 * Use bounding boxes instead of contours
 
+
+output
+![white color](output/white.png)
+![blue color](output/blue.png)
+![red color](output/red.png)
 ##  Author
 https://github.com/Karthik-R-Nayak
 Developed as a **Computer Vision practice project using OpenCV**.
